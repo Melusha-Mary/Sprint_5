@@ -1,4 +1,4 @@
-from data import Data
+from data import Data, URL, Const
 from locators import StellarBurgerLocators
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait

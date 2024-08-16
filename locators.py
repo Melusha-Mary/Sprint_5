@@ -25,15 +25,14 @@ class StellarBurgerLocators:
     SAUCE_BUTTON = (By.XPATH, "//span[text()='Соусы']")  # Кнопка перехода в раздел "Соусы"
     FILLINGS_BUTTON = (By.XPATH, "//span[text()='Начинки']")  # Кнопка перехода в раздел "Начинки"
     BUN_ACTIVE_BUTTON = (
-        By.XPATH, "//span[text()='Булки']/parent::div[contains(@class, '2BEP')]")  # Активная кнопка раздела "Булки"
+        By.XPATH, "//span[text()='Булки']/parent::div[contains(@class, 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect')]")  # Активная кнопка раздела "Булки"
     SAUCE_ACTIVE_BUTTON = (
-        By.XPATH, "//span[text()='Соусы']/parent::div[contains(@class, '2BEP')]")  # Активная кнопка раздела "Соусы"
+        By.XPATH, "//span[text()='Соусы']/parent::div[contains(@class, 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect')]")  # Активная кнопка раздела "Соусы"
     FILLINGS_ACTIVE_BUTTON = (
-        By.XPATH, "//span[text()='Начинки']/parent::div[contains(@class, '2BEP')]")  # Активная кнопка раздела "Начинки"
+        By.XPATH, "//span[text()='Начинки']/parent::div[contains(@class, 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect')]")  # Активная кнопка раздела "Начинки"
     BUN_HEADER = (By.XPATH, "//h2[text()='Булки']")  # Заголовок раздела "Булки"
     SAUCE_HEADER = (By.XPATH, "//h2[text()='Соусы']")  # Заголовок раздела "Соусы"
     FILLINGS_HEADER = (By.XPATH, "//h2[text()='Начинки']")  # Заголовок раздела "Начинки"
     CONSTRUCTOR_ACTIVE_SECTION_BUTTON_ATT = "tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"
     # Значение аттрибута class для активной кнопки переключения режимов
-    HEADER_LOCATION = {'x': 332, 'y': 244}  # Координаты для поиска заголовков
-    ERROR_MESSAGE_TEXT = 'Некорректный пароль'  # Текст ошибки для неверного пароля
+
